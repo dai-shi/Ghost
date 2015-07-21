@@ -13,14 +13,14 @@ shortcuts['alt+shift+z'] = 'toggleZenMode';
 
 // Text
 shortcuts['ctrl+alt+u'] = {action: 'editorShortcut', options: {type: 'strike'}};
-shortcuts[ctrlOrCmd + '+b'] = {action: 'editorShortcut', options: {type: 'bold'}};
+shortcuts[ctrlOrCmd + '+shift+b'] = {action: 'editorShortcut', options: {type: 'bold'}};
 shortcuts[ctrlOrCmd + '+i'] = {action: 'editorShortcut', options: {type: 'italic'}};
 
 shortcuts['ctrl+u'] = {action: 'editorShortcut', options: {type: 'uppercase'}};
 shortcuts['ctrl+shift+u'] = {action: 'editorShortcut', options: {type: 'lowercase'}};
 shortcuts['ctrl+alt+shift+u'] = {action: 'editorShortcut', options: {type: 'titlecase'}};
 shortcuts[ctrlOrCmd + '+shift+c'] = {action: 'editorShortcut', options: {type: 'copyHTML'}};
-shortcuts[ctrlOrCmd + '+h'] = {action: 'editorShortcut', options: {type: 'cycleHeaderLevel'}};
+shortcuts[ctrlOrCmd + '+shift+h'] = {action: 'editorShortcut', options: {type: 'cycleHeaderLevel'}};
 
 // Formatting
 shortcuts['ctrl+q'] = {action: 'editorShortcut', options: {type: 'blockquote'}};
